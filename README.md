@@ -19,7 +19,7 @@ Key Goals:
 ## Architecture & Data Acquisition
 The project utilizes three distinct data streams to create a unified view of the market:
 
-* Kaggle API: Dataset based on the house price, house type, broker titles, number of bedrooms and bathrooms, property square footage, address, state, administrative and local areas, street names and geographical coordinates for New York City will be assessed through the Kaggle API. Dataset :- https://www.kaggle.com/datasets/nelgiriyewithana/new-york-housing-market
+* Kaggle API: Dataset based on the house price, house type, broker titles, number of bedrooms and bathrooms, property square footage, address, state, administrative and local areas, street names and geographical coordinates for New York City will be assessed through the Kaggle API. 
   
 * OpenStreetMap (OSM) API: To extract the speci ic amenities like schools, hospitals and public transport stations and stop locations in New York, Overpass API, an OpenStreetMap (OSM) query tool along with requests library is used to retrieve data.
 
